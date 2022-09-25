@@ -1,0 +1,239 @@
+body {
+  background-color: rgb(2, 26, 54);
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  font-family: 'GowunDodum-Regular';
+}
+
+#main {
+  background-image: url(../img/test1/main/share/test1-background.jpg);
+  background-size: cover;
+  text-align: center;
+  color: white;
+  height: calc(var(--vh, 1vh) * 100);
+}
+
+#qna {
+  display: none;
+  background-image: url(../img/test1/main/share/test1-background.jpg);
+  background-size: cover;
+  text-align: center;
+  color: white;
+  height: calc(var(--vh, 1vh) * 100);
+}
+
+#result {
+  display: none;
+  text-align: center;
+  color: white;
+}
+
+.tLayout {
+  height: 30%;
+}
+
+.mLayout {
+  height: 50%;
+}
+
+.bLayout {
+  height: 20%;
+}
+
+.tLayout2 {
+  height: 10%;
+}
+
+.mLayout2 {
+  height: 40%;
+}
+
+.bLayout2 {
+  height: 50%;
+}
+
+.buttonBox {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.countPage {
+  text-align: right;
+  width: 75%;
+  font-size: 13px;
+  opacity: 0.3;
+}
+
+.statusLayout{
+  height: 20px;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.prevButton{
+  height: 20px;
+  width: 20px;
+  line-height: 100%;
+  padding-top: 1px;
+  padding-right: 1px;
+  margin-right: 5px;
+  border-radius: 50%;
+  background-color: white;
+  opacity: 0.6;
+  color: rgb(2, 26, 54);
+  text-align: center;
+}
+
+.status {
+  height: 100%;
+  width: 80%;
+  background-color: rgb(20, 36, 55);
+  border-radius: 20px;
+  margin-right: 5px;
+}
+
+.statusBar {
+  height: 100%;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.imgLayout {
+  width: 70%;
+}
+
+.dateLayout {
+  display: none;
+}
+
+.qBox {
+  text-align: center;
+}
+
+.answerBox {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.answerList {
+  background-color: white;
+  border-radius: 20px;
+  display: block;
+  width: 80%;
+  border: 0px;
+  font-size: 13px;
+  color: black;
+}
+
+.imgBox {
+  width: 100%;
+}
+
+.resultBox {
+  width: 80%;
+}
+
+.resultBoxBtn {
+  background-color: white;
+  border-radius: 20px;
+  display: block;
+  width: 70%;
+  border: 0px;
+  font-size: 13px;
+}
+
+#allResult {
+  display:none;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.allTestResult {
+  width: 90%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+}
+
+.allTestResult::-webkit-scrollbar {
+  display: none;
+}
+
+.allResultButtonLayout {
+  width: 100%;
+}
+
+.testResultList {
+  width: 100%;
+  border-style: none;
+  background-color: rgb(243, 248, 254);
+  border-radius: 20px;
+}
+
+.topDiv {
+  align-items: center;
+  display: flex;
+}
+
+.imgBoxList {
+  border-radius: 20px;
+}
+
+.imgDiv {
+  flex: 1;
+}
+
+.textDiv {
+  text-align: left;
+  flex: 4;
+  color: black;
+}
+
+.detailDiv::-webkit-scrollbar {
+  display: none;
+}
+
+.detailDiv {
+  border-radius: 20px;
+  overflow: auto;
+  -webkit-filter: blur(0.000001px);
+  background-color: rgb(2, 26, 54);
+}
+
+.detailTextDiv {
+  text-align: center;
+  color: white;
+}
+
+.detailTextDiv2 {
+  text-align: left;
+  color: white;
+}
+
+.detailTestBtn {
+  height: 20%;
+  background-color: white;
+  border-radius: 20px;
+  display: block;
+  width: 80%;
+  border: 0px;
+  font-size: 13px;
+  color: black;
+}
+
+@font-face {
+  font-family: 'GowunDodum-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunDodum-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
