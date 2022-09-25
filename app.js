@@ -14,12 +14,11 @@ const conn = {
     password:'qwerasdf12',
     database:'find-mate'
 };
+
 // make port with 8080
-// git test
-// make port with 80
-app.listen(80, function() {
+app.listen(8080, function() {
   // starting message
-  console.log("start, express sever on port 80");
+  console.log("start, express sever on port 8080");
 });
 
 // add public folder static
