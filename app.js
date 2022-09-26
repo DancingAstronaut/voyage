@@ -12,13 +12,13 @@ const conn = {
     port:'3306',
     user:'root',
     password:'qwerasdf12',
-    database:'find-mate'
+    database:'findmate'
 };
 
-// make port with 8080
-app.listen(8080, function() {
+// make port with 80
+app.listen(80, function() {
   // starting message
-  console.log("start, express sever on port 8080");
+  console.log("start, express sever on port 80");
 });
 
 // add public folder static
